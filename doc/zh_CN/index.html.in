@@ -24,7 +24,7 @@
     <div class="cups-body">
       <div class="row">
 	<h1>CUPS @CUPS_VERSION@</h1>
-	<p>CUPS es el sistema de impresi&oacute;n de c&oacute;digo abierto basado en est&aacute;ndares desarrollado por <a class="jumbolink" href="https://openprinting.github.io/" target="_blank">OpenPrinting</a> para macOS<sup>&reg;</sup> y otros sistemas operativos tipo UNIX<sup>&reg;</sup>. CUPS uses <a href="https://www.pwg.org/ipp/everywhere.html" target="_blank">IPP Everywhere™</a> to support printing to local and network printers.</p>
+	<p><a class="jumbolink" href="https://openprinting.github.io/" target="_blank">OpenPrinting</a> 为Linux®和其他类Unix®操作系统开发的基于标准的开源打印系统。CUPS使用 <a href="https://www.pwg.org/ipp/everywhere.html" target="_blank">IPP Everywhere™</a> 支持本地和网络打印机的打印。</p>
       </div>
       <div class="row">
 	<div class="thirds">

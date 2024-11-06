@@ -36,30 +36,30 @@ DefaultLanguage zh_CN
 
 # Restrict access to the server...
 <Location />
-  Order allow,deny
   Allow all
+  Order allow,deny
 </Location>
 
 # Restrict access to the admin pages...
 <Location /admin>
-  Order allow,deny
   Allow all
+  Order allow,deny
 </Location>
 
 # Restrict access to configuration files...
 <Location /admin/conf>
+  Allow all
   AuthType Default
   Require user @SYSTEM
   Order allow,deny
-  Allow all
 </Location>
 
 # Restrict access to log files...
 <Location /admin/log>
+  Allow all
   AuthType Default
   Require user @SYSTEM
   Order allow,deny
-  Allow all
 </Location>
 
 # Set the default printer/job policies...
